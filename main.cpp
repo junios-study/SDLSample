@@ -22,6 +22,7 @@ int SDL_main(int argc, char* argv[])
 		SDL_SetRenderDrawColor(MyRenderer, 0xff, 0, 0, 0);
 		SDL_RenderClear(MyRenderer);
 
+		//Actor ->Render()
 		//사각형 그리기
 		if (X > 500)
 		{
